@@ -8,5 +8,6 @@ class MP3Importer
 
   def files
     Dir.entries(path)
+    delete_if{ |filename| filename.size < 3}
   end
 end
