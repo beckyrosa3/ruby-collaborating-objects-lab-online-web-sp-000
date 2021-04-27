@@ -34,6 +34,8 @@ end
   end
 
   def print_songs
-
+    self.songs.each do |s|
+      puts s
+    end
   end
 end
