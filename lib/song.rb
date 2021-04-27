@@ -16,6 +16,7 @@ class Song
   def self.new_by_filename
     self.all.find do |song|
       song.name == name
+    end
   end
 
   def artist_name
