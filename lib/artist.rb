@@ -19,7 +19,9 @@ class Artist
   end
 
   def songs
-
+    Song.all.map do |song_list|
+    song_list  
+    end
   end
 
   def self.find_or_create_by_name
