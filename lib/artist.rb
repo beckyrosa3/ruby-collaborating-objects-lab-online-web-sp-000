@@ -3,5 +3,6 @@ class Artist
   attr_accessor :name
 
   def initialize(name)
-    @name = na,e
+    @name = name
+  end
 end
