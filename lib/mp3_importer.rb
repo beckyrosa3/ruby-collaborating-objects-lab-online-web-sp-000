@@ -7,7 +7,6 @@ class MP3Importer
   end
 
   def files
-    Dir.entries(path)
-    delete_if{ |filename| [".",".."].include? filename}
+    Dir.entries(path).delete_if{ |filename| filename < 3}
   end
 end
