@@ -23,6 +23,7 @@ class Artist
     song_list
     end
   end
+end
 
   def self.find_or_create_by_name
 
