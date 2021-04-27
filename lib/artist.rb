@@ -20,7 +20,7 @@ class Artist
 
   def songs
     Song.all.map do |song_list|
-      if song_list == @song
+      if song_list == song
         song_list
 
     end
